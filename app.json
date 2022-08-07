@@ -1,0 +1,17 @@
+{
+    "name": "nbhd",
+    "description": "deploy xray to heroku",
+    "keywords": ["xray"],
+    "env": {
+        "PROTOCOL": {
+            "description": "choose vless or vmess",
+            "value": "vless"
+        },
+        "UUID": {
+            "description": "xray UUID",
+            "value": "955974a7-66e8-4a94-848a-e459137d0ce3"        
+        }
+    },
+    "repository": "https://github.com/azcukgrnbc/nbhd",
+    "stack": "container"
+}
